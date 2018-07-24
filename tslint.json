@@ -1,0 +1,13 @@
+{
+    "rulesDirectory": "node_modules/tslint-microsoft-contrib",
+    "extends": "tslint-microsoft-contrib",
+    "rules": {
+        "max-func-body-length": [
+            true,
+            2,
+            {
+                "ignore-parameters-to-function-regex": "^describe$"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tslint-test-20180724",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json",
+    "exec": "ts-node index.ts"
+  },
+  "author": "Makoto Mizukami <comm@makotom.org>",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^7.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-microsoft-contrib": "^5.1.0",
+    "typescript": "^2.9.2"
+  }
+}
